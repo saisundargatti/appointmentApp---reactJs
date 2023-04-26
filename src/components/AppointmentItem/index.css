@@ -1,0 +1,25 @@
+.star-button {
+  background-color: transparent;
+  border-style: none;
+}
+.flexProps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px 10px;
+  border-color: #b5b7c4;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.content-con {
+  width: 300px;
+  margin: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

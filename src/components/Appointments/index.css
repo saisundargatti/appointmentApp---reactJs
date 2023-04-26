@@ -1,0 +1,57 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+.h-line {
+  background-color: #dee0e3;
+  height: 1px;
+  width: 100%;
+}
+.section-container {
+  background-color: white;
+  width: 100%;
+  min-height: 500px;
+  border-radius: 10px;
+  padding: 50px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.displayProps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.starred-button {
+  color: #8b5cf6;
+  font-size: 14px;
+  font-style: Roboto;
+  font-weight: 500;
+  border-color: #8b5cf6;
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.active-button {
+  background-color: #8b5cf6;
+  color: white;
+}
